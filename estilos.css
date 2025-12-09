@@ -1,0 +1,52 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    text-align: center;
+    background: linear-gradient(to right, #B06730, #EED9BE);
+}
+
+hr {
+    border-color: black;
+}
+
+h1, h2, h3 {
+    color: #FFD700;
+}
+
+.justo {
+    text-align: center;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+/* Bordas */
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Efeito Zebra */
+tr:nth-child(odd) td,
+tr:nth-child(odd) th {
+    background-color: #E37252;   
+}
+
+tr:nth-child(even) td,
+tr:nth-child(even) th {
+    background-color: #EED9BE;  
+}
+
+/* Mantém o título da tabela destacado */
+th {
+    font-weight: bold;
+}
+
+img {
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+}
