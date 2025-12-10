@@ -26,7 +26,6 @@ table {
 /* Bordas */
 th, td {
     border: 2px solid black;
-    padding: 10px;
 }
 
 /* Efeito Zebra */
@@ -50,3 +49,4 @@ img {
     background-color: #fff;
     border: 2px solid black;
 }
+
